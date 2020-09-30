@@ -1,0 +1,121 @@
+I"_
+<figure>
+  <div class="flex_row" style="display:flex">
+  
+  
+    
+      <div class="flex_single_image" style="flex:0.7069; padding:0 2% 0 0">
+    
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg" title="Film Appriciation course, FTII">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_fa_poster.jpg" alt="Film Appriciation course, FTII" />
+      </a>
+    
+      </div>
+      <div class="flex_row_break"></div>
+    
+    
+  
+    
+      <div class="flex_single_image" style="flex:2.0">
+    
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_workshop.jpg" title="Students of Art Direction &amp; Production Design, FTII">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_workshop.jpg" alt="Students of Art Direction &amp; Production Design, FTII" />
+      </a>
+    
+      </div>
+      <div class="flex_row_break"></div>
+    
+    
+  
+  </div>
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<h2 id="invited-talk">Invited Talk</h2>
+
+<p>The talk was part of the yearly Film Appricaition Course conducted by FTII.</p>
+
+<!-- 360-degree image embed. -->
+<div class="vr_single">
+<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+  <!-- 360-degree image. -->
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_facourse.jpg"></a-sky>
+    </a-entity>
+</a-scene>
+</div>
+<figcaption>Participants at the Talk</figcaption>
+
+<p><br /></p>
+
+<h2 id="workshop">Workshop</h2>
+
+<p>The VR filmmaking workshop was an introductory workshop for the students of Art Direction &amp; Production Design at FTII Pune. The students went through a hands-on process of creating a  360° film narrative, from pre-prodcution to experiencing.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_workshop1.jpg" title="FTII Workshop">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_workshop1.jpg" alt="FTII Workshop" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_workshop2.jpg" title="FTII Workshop">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_workshop2.jpg" alt="FTII Workshop" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_workshop3.jpg" title="FTII Workshop">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_workshop3.jpg" alt="FTII Workshop" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/publications/workshops/ftii2018/ftii_workshop4.jpg" title="FTII Workshop">
+        <img src="/assets/img/publications/workshops/ftii2018/ftii_workshop4.jpg" alt="FTII Workshop" />
+      </a>
+    
+  
+  
+    <figcaption>Images from the Workshop
+</figcaption>
+  
+</figure>
+
+<h2 id="outcomes"><strong><em>Outcomes</em></strong></h2>
+
+<p>The workshop concluded with students creating two 360° film narratives (Replaced &amp; Vrida), produced within the campus.</p>
+
+<!-- 360-degree image embed. -->
+<div class="vr_single">
+<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+  <!-- 360-degree image. -->
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_replaced.jpg"></a-sky>
+    </a-entity>
+</a-scene>
+</div>
+<figcaption>360° Poster of 'Replaced'</figcaption>
+
+<p><br /></p>
+
+<!-- 360-degree image embed. -->
+<div class="vr_single">
+<a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
+  <!-- 360-degree image. -->
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_vrida.jpg"></a-sky>
+    </a-entity>
+</a-scene>
+</div>
+<figcaption>360° Poster of 'Vrida'</figcaption>
+
+<p><br /></p>
+:ET

@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+
+<a id="about"></a>
+
+<div class="header_home">
+
+<h1>Hi, I'm Rutu.</h1>
+<h4 style="font-weight: 400; margin-top: 20px; margin-bottom: 0px;">UX Research & Design Consultant</h4>
+<small>
+    <a href="https://www.linkedin.com/in/rutu-panchal/" target="_blank">LINKEDIN</a>
+    &nbsp; &nbsp; • &nbsp; &nbsp; <a href="https://www.instagram.com/chitra_yatra/" target="_blank">INSTAGRAM</a>
+    &nbsp; &nbsp; • &nbsp; &nbsp; <a href="https://dribbble.com/rutup" target="_blank">DRIBBLE</a>
+</small>
+<br><br><br>
+    <div class="block_text">
+    <p>I’m a User Experience Consultant based in Mumbai, India. I have over 4 years of experience in designing for B2B and B2C products. 
+    I have worked on projects in areas of finance, insurance, wellness and education. 
+    I am passionate about identifying user needs and building meaningful and useful products.
+    </p>
+    </div>
+</div>
+
+
+<div style="background-color: #ffffff; padding-top: 60px;">
+
+    <div id="main" role="main" style="margin: 0px auto;">
+        <div class="whatido" style="margin-top: 10px;">
+            <h2 id="page-title" class="page__title">What I Do &nbsp; <span style="color: #FA8072;">&#x2015;&#x2015;</span></h2>
+        </div>
+
+        <div class="selected-whatido" style="width:100%;">
+
+            {% include documents-collection-whatido-homepage.html collection="whatido" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+
+        </div>
+
+    </div>
+
+</div>
+
+<a id="work"></a>
+
+<div style="background-color: #ffffff; padding-top: 60px;">
+
+    <div id="main" role="main" style="margin: 0px auto;">
+        <div class="projects" style="margin-top: 10px;">
+            <h2 id="page-title" class="page__title">My Work &nbsp; <span style="color: #FA8072;">&#x2015;&#x2015;</span></h2>
+        </div>
+
+        <div class="selected-projects" style="width:100%;">
+
+            {% include documents-collection-projects-homepage.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+
+        </div>
+
+    </div>
+
+</div>
+
+<div style="background-color: #ffffff; padding-top: 60px;">
+
+    <div id="main" role="main" style="margin: 0px auto;">
+        <div class="projects" style="margin-top: 10px;">
+            <h2 id="page-title" class="page__title">Want to Collaborate? &nbsp; <span style="color: #FA8072;">&#x2015;&#x2015;</span></h2>
+        </div>
+    <p>Or just want to chat?  Get in touch with me.
+        <br> <br> <b>Email</b>
+        <br> <a href="mailto:rutu.ux@gmail.com" style="color: #FA8072">rutu.ux@gmail.com</a>
+    </p>
+
+
+    </div>
+
+</div>

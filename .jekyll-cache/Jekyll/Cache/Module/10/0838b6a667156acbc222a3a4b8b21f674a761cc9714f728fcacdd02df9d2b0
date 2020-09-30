@@ -1,0 +1,95 @@
+I"ò	
+
+<div class="masthead">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="new-nav">
+
+                
+
+
+                
+                <a class="site-logo" href="/"><img src="https://rutupanchal.github.io/hello/assets/rutu-icon.png" alt=""></a>
+                
+
+
+                
+
+
+                <ul class="visible-links">
+                    
+                    <li class="masthead__menu-item">
+                        <a href="/#about">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="masthead__menu-item">
+                        <a href="/#work">Work</a>
+                    </li>
+                    
+                    
+                </ul>
+
+                <ul class="hidden-links hidden" id="dropdown-links">
+                    
+                    <li class="masthead__menu-item">
+                        <a href="/#about">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="masthead__menu-item">
+                        <a href="/#work">Work</a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                <button class="new-nav__toggle" id="dropdown-button" type="button">
+                    <span class="visually-hidden">Toggle menu</span>
+                    <div class="navicon" id="dropdown-button-logo" type="button-logo"></div>
+                </button>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var dropdown = document.getElementById("dropdown-links");
+    var button = document.getElementById("dropdown-button");
+    var buttonlogo = document.getElementById("dropdown-button-logo");
+    button.onclick = function() {
+
+        if (dropdown.className === "hidden-links hidden") {
+            dropdown.className = "hidden-links visible";
+        } else {
+            dropdown.className = "hidden-links hidden";
+        }
+
+        console.log("Dropped");
+    }
+
+    buttonlogo.onclick = function() {
+
+        if (dropdown.className === "hidden-links hidden") {} else {}
+
+    }
+
+
+
+    window.onclick = function(event) {
+
+        if (event.target != dropdown && event.target != button && event.target != buttonlogo) {
+            console.log("Window Click");
+
+            if (dropdown.className === "hidden-links visible") {
+                dropdown.className = "hidden-links hidden";
+            }
+        }
+    }
+
+</script>
+:ET

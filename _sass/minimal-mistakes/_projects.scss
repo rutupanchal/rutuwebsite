@@ -1,0 +1,748 @@
+/* ==========================================================================
+   Projects & What I DO
+   ========================================================================== */
+
+.projects {
+
+    margin-top: 120px;
+    margin-bottom: 2em;
+
+}
+
+.projects__item {
+    position: relative;
+
+    a {
+        position: relative;
+        z-index: 10;
+        color: $text-color;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    a[rel="permalink"] {
+        position: static;
+    }
+}
+
+.whatido__item {
+    position: relative;
+
+    a {
+        position: relative;
+        z-index: 10;
+        color: $text-color;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    a[rel="permalink"] {
+        position: static;
+    }
+}
+
+.projects__subtitle {
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: $type-size-4;
+    color: $muted-text-color;
+    border-bottom: 1px solid $border-color;
+
+    + .list__item .projects__item-title {
+        margin-top: 0.5em;
+    }
+}
+
+.projects__item-title {
+    margin-bottom: 0.25em;
+    font-family: $header-font-family;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+    a[rel="permalink"]::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: $secondary-color;
+    }
+
+    a + a {
+        opacity: 0.5;
+    }
+}
+
+
+.page__content {
+    .projects__item-title {
+        margin-top: 2em;
+        border-bottom: none;
+
+        a {
+            text-decoration: none;
+        }
+
+
+
+    }
+}
+
+.projects__item-excerpt {
+    margin-top: 0;
+    font-size: $type-size-6;
+
+    & + p {
+        text-indent: 0;
+    }
+
+    a {
+        position: relative;
+    }
+}
+
+.projects__item-caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 5px;
+    color: #fff;
+    font-family: $caption-font-family;
+    font-size: $type-size-8;
+    background: #000;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+
+    @include breakpoint($large) {
+        padding: 5px 10px;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.projects__item-teaser-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.whatido_item-teaser-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.projects__item-teaserpic {
+    transition: filter .4s;
+}
+
+.projects__item:hover .projects__item-teaserpic {
+      -webkit-filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(100deg) saturate(200%) ;
+          filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(300deg) saturate(200%);
+}
+
+/*
+   List view
+   ========================================================================== */
+
+.list__item {
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+}
+
+
+/*
+   project_grid view
+   ========================================================================== */
+
+.projects {
+    .project_grid__wrapper {
+        /* extend project_grid elements to the right */
+
+        @include breakpoint($large) {
+            margin-right: -1 * $right-sidebar-width-narrow;
+        }
+
+        @include breakpoint($x-large) {
+            margin-right: -1 * $right-sidebar-width;
+        }
+    }
+}
+
+.all-projects {
+
+    width: 100%;
+    height: 80%;
+
+}
+
+.tagbox {
+
+    margin-top: 0.5em;
+    padding: 0;
+    //background: #e5e5e5;
+    font-size: $type-size-6;
+    cursor: default;
+
+}
+
+.tagbox:first-child {
+    //background: $secondary-highlight;
+}
+
+.tagbox:last-child {
+    .tag-separator{
+    display: none;
+    }
+
+}
+
+.projects__item-excerpt-tags {
+
+    margin-top: 0.4em;
+    line-height: 1.7em;
+}
+
+
+
+.filter-button {
+    font-weight: bold;
+    font-size: $type-size-6;
+    padding: 0.2em 0.4em;
+    margin: 0.1em 0.4em 0.1em 0em;
+    border-style: solid;
+    border-width: medium;
+    border-width: 2px;
+    border-color: $primary-color;
+    color: $primary-color;
+    border-radius: 0.3em;
+}
+
+.filter-button-active {
+    color: $background-color;
+    background: $primary-color;
+
+}
+
+.filter-button:hover {
+    text-decoration: none;
+    color: $background-color;
+    background: $primary-color;
+    cursor: pointer;
+
+}
+
+.project_grid__item {
+
+    float: center;
+    margin-bottom: 0.5em;
+    width: 24%;
+
+    @include breakpoint(200px) {
+        width: 48%;
+
+    }
+
+    @include breakpoint(400px) {
+        width: 48%;
+
+    }
+
+    @include breakpoint(600px) {
+
+        width: 48%;
+    }
+
+
+    @include breakpoint(800px) {
+        width: 24%;
+
+    }
+
+    @include breakpoint(800px) {
+
+        width: 24%;
+    }
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-4;
+    }
+
+    .projects__item-excerpt {
+        font-size: $type-size-6;
+    }
+
+
+}
+
+/*
+   project_grid Homepage
+   ========================================================================== */
+
+.project_grid__item-selected-homepage {
+
+
+    margin-bottom: 1em;
+
+    float: left;
+    width: span(12 of 12);
+
+
+    @include breakpoint($small) {
+        float: left;
+        width: span(12 of 12);
+
+    }
+
+    @include breakpoint($medium) {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(6 of 12);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(2 of 12);
+            margin-right: 0;
+        }
+
+
+
+
+    }
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-4;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-6;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-6;
+        }
+    }
+
+
+}
+
+/*
+   What I Do_grid Homepage
+   ========================================================================== */
+
+
+.whatido_grid__item-selected-homepage {
+
+
+    margin-bottom: 1em;
+
+    float: left;
+    width: span(12 of 12);
+
+
+    @include breakpoint($small) {
+        float: left;
+        width: span(12 of 12);
+
+    }
+
+    @include breakpoint($medium) {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(4 of 12);
+
+        &:nth-child(3n + 1) {
+            clear: none;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(2 of 12);
+        }
+
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(2 of 12);
+            margin-right: 0;
+        }
+
+
+
+
+    }
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-4;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-6;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-6;
+        }
+    }
+
+
+}
+
+
+
+
+.project_grid__item-selected {
+
+
+    margin-bottom: 1em;
+    float: left;
+    width: span(5 of 10);
+
+    &:nth-child(2n + 1) {
+        clear: both;
+        margin-left: 0;
+
+    }
+
+    &:nth-child(2n + 2) {
+        clear: none;
+        margin-left: gutter(of 10);
+
+    }
+
+    @include breakpoint($small) {
+        float: left;
+        width: span(5 of 10);
+
+        &:nth-child(2n + 1) {
+            clear: both;
+            margin-left: 0;
+
+        }
+
+        &:nth-child(2n + 2) {
+            clear: none;
+            margin-left: gutter(of 10);
+
+        }
+    }
+
+    /* GRID ITEM HERE */
+
+    @include breakpoint($medium) {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: span(2 of 8);
+
+
+        &:nth-child(2n + 1) {
+            clear: none;
+        }
+
+        &:nth-child(4n + 1) {
+            clear: both;
+        }
+
+        &:nth-child(4n + 2) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 3) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+        &:nth-child(4n + 4) {
+            clear: none;
+            margin-left: gutter(1 of 12);
+        }
+
+    }
+
+
+    .page__meta {
+        margin: 0 0 4px;
+        font-size: 0.6em;
+    }
+
+    .projects__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-4;
+    }
+
+    .projects__item-excerpt {
+        //display: none;
+        font-size: $type-size-6;
+
+        @include breakpoint($medium) {
+            display: block;
+            font-size: $type-size-6;
+        }
+    }
+
+
+}
+
+
+/*
+   Features
+   ========================================================================== */
+
+.feature__wrapper {
+    @include clearfix();
+    margin-bottom: 2em;
+    border-bottom: 1px solid $border-color;
+
+    .projects__item-title {
+        margin-bottom: 0;
+    }
+}
+
+.feature__item {
+    position: relative;
+    margin-bottom: 2em;
+    font-size: 1.125em;
+
+    @include breakpoint($small) {
+        float: left;
+        margin-bottom: 0;
+        width: span(4 of 12);
+
+        &:nth-child(3n + 1) {
+            clear: both;
+            margin-left: 0;
+        }
+
+        &:nth-child(3n + 2) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        &:nth-child(3n + 3) {
+            clear: none;
+            margin-left: gutter(of 12);
+        }
+
+        .feature__item-teaser {
+            max-height: 200px;
+            overflow: hidden;
+        }
+    }
+
+    .projects__item-body {
+        padding-left: gutter(1 of 12);
+        padding-right: gutter(1 of 12);
+    }
+
+    a.btn::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &--left {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .projects__item {
+            float: left;
+        }
+
+        .whatido__item {
+            float: left;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+
+            .projects__item-body {
+                float: right;
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+                width: span(7 of 12);
+            }
+        }
+    }
+
+    &--right {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .projects__item {
+            float: left;
+        }
+
+        .whatido__item {
+            float: left;
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: right;
+
+            .projects__item-body {
+                float: left;
+                width: span(7 of 12);
+                padding-left: gutter(0.5 of 12);
+                padding-right: gutter(1 of 12);
+            }
+        }
+    }
+
+    &--center {
+        position: relative;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        font-size: 1.125em;
+
+        .projects__item {
+            float: left;
+            width: 100%;
+
+        }
+
+        .whatido__item {
+            float: left;
+            width: 100%;
+
+        }
+
+        a.btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include breakpoint($small) {
+            text-align: center;
+
+            .projects__item-body {
+                margin: 0 auto;
+                width: span(7 of 12);
+            }
+        }
+    }
+}
+
+/* Place inside an projects layout */
+
+.projects {
+    .feature__wrapper {
+        .projects__item-title {
+            margin-top: 0.25em;
+            font-size: 1em;
+        }
+    }
+
+    .feature__item,
+    .feature__item--left,
+    .feature__item--center,
+    .feature__item--right {
+        font-size: 1em;
+    }
+}
+
+/*
+   Wide Pages
+   ========================================================================== */
+
+.wide {
+    .projects {
+        @include breakpoint($large) {
+            padding-right: 0;
+        }
+
+        @include breakpoint($x-large) {
+            padding-right: 0;
+        }
+    }
+}
+
+/* Place inside a single layout */
+
+.layout--single {
+    .feature__wrapper {
+        display: inline-block;
+    }
+}

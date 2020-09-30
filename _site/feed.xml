@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-01T01:44:23+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rutu</title><subtitle>User Experience Consultant</subtitle><author><name>Rutu Panchal</name><email>rutu.panchal[at]gmail.com</email></author><entry><title type="html">Recently Accepted Publications</title><link href="http://localhost:4000/updates/recently-accepted-publications/" rel="alternate" type="text/html" title="Recently Accepted Publications" /><published>2020-09-25T00:00:00+05:30</published><updated>2020-09-25T00:00:00+05:30</updated><id>http://localhost:4000/updates/recently-accepted-publications</id><content type="html" xml:base="http://localhost:4000/updates/recently-accepted-publications/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/publications&quot;&gt;&lt;strong&gt;Augmented Reality Application in Vocational Education: A Case of Welding Training&lt;/strong&gt;&lt;/a&gt;
+&lt;br /&gt;Accepted for Poster Presentation
+&lt;br /&gt;at ISS 2020 - 15th ACM Interactive Surfaces and Spaces&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/publications&quot;&gt;&lt;strong&gt;Dual Phone AR: Exploring the use of Phones as Controllers for Mobile Augmented Reality&lt;/strong&gt;&lt;/a&gt;
+&lt;br /&gt;Accepted for Poster Presentation
+&lt;br /&gt;at VRST 2020 - 26th ACM Symposium on Virtual Reality Software and Technology&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/publications&quot;&gt;&lt;strong&gt;Dual Phone AR: Using a Second Phone as a Controller for Mobile Augmented Reality&lt;/strong&gt;&lt;/a&gt;
+&lt;br /&gt;Accepted for Demo Presentation
+&lt;br /&gt;at UIST 2020 - 33rd ACM User Interface Software and Technology Symposium&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/workshops/ISMAR2020&quot;&gt;&lt;strong&gt;Towards Designing a Mobile Augmented Reality Learning Experience&lt;/strong&gt;&lt;/a&gt;
+&lt;br /&gt;Accepted for Workshop
+&lt;br /&gt;at ISMAR 2020 - 19th IEEE International Symposium on Mixed and Augmented Reality&lt;/p&gt;</content><author><name>Rutu Panchal</name><email>rutu.panchal[at]gmail.com</email></author><category term="updates" /><category term="publications" /><summary type="html">ARTWO Project accepted at UIST2020 &amp; VRST2020. AR project for welding Training accepted at ISS2020.</summary></entry><entry><title type="html">ScholAR Remote Study - Call for Participants</title><link href="http://localhost:4000/calls/scholar-remote-study/" rel="alternate" type="text/html" title="ScholAR Remote Study - Call for Participants" /><published>2020-09-10T00:00:00+05:30</published><updated>2020-09-10T00:00:00+05:30</updated><id>http://localhost:4000/calls/scholar-remote-study</id><content type="html" xml:base="http://localhost:4000/calls/scholar-remote-study/">&lt;p&gt;We’re conducting a study on using &lt;strong&gt;Mobile Augmented Reality for Remote Learning&lt;/strong&gt;, as part of the &lt;a href=&quot;/projects/scholar&quot;&gt;ScholAR Project&lt;/a&gt;, where we are testing a &lt;strong&gt;Collaborative AR Classroom&lt;/strong&gt; that we’ve developed, focusing on &lt;strong&gt;Mathematics for classes 6 to 8&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are a mathematics teacher who would like to be a part of this study along with your class, or know teachers or schools who might be interested in participating, please fill this form - &lt;a href=&quot;https://forms.gle/h5u2yWw6EVGbp11G8&quot;&gt;ScholAR Call for Participants&lt;/a&gt; - and we’ll get in touch with you to discuss further.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/JoWq2eIltpY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;figcaption&gt;Explainer video - Remote collaboration in AR - Teacher &amp;amp; student interaction&lt;/figcaption&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/FhA2svVtDHk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;figcaption&gt;Explainer video - Remote collaboration in AR - Teacher + multiple students interaction&lt;/figcaption&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Rutu Panchal</name><email>rutu.panchal[at]gmail.com</email></author><category term="calls" /><category term="education" /><category term="ar" /><summary type="html">Would you like to participate in a study on Remote AR Classrooms? Read this post to find out more, and get in touch!</summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/updates/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/updates/hello-world</id><content type="html" xml:base="http://localhost:4000/updates/hello-world/">&lt;p&gt;We’re starting an IMXD Blog!&lt;/p&gt;
+
+&lt;p&gt;We will be posting our updates, calls, events and explorations here.&lt;/p&gt;
+
+&lt;p&gt;You can visit this blog section from time to time to know about our ongoing activities.&lt;/p&gt;
+
+&lt;p&gt;See ya!&lt;/p&gt;
+
+&lt;p&gt;– IMXD Team&lt;/p&gt;</content><author><name>Rutu Panchal</name><email>rutu.panchal[at]gmail.com</email></author><category term="updates" /><summary type="html">We're finally starting an IMXD Blog!</summary></entry></feed>

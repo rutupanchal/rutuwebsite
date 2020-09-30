@@ -1,0 +1,13 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "Research"
+     photo: /assets/img/ph5.jpg
+     excerpt: Gather qualitative data...
+   - title: "Experience Design"
+     photo: /assets/img/ph5.jpg
+     excerpt: Generate ideas and translate...
+   - title: "Visual Design"
+     photo: /assets/img/ph5.jpg
+     excerpt: Deliver teh vision into...
