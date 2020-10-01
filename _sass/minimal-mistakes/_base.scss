@@ -61,13 +61,12 @@ h6 {
 
 small,
 .small {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
 }
 
 p {
     margin-bottom: 1.3em;
-    font-size: $type-size-6;
-
+    font-size: $type-size-5;
 }
 
 u,
@@ -142,7 +141,7 @@ a {
     }
 
     &:hover {
-        color: $primary-color;
+        color: $link-color-hover;
         outline: 0;
     }
 }
