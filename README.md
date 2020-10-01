@@ -1,3 +1,3 @@
-# IMXD website
+# Rutu Panchal Website
 
-Based on Minimal Mistakes, and powered by Jekyll.
+Created using on Jekyll & Minimal Mistakes.
