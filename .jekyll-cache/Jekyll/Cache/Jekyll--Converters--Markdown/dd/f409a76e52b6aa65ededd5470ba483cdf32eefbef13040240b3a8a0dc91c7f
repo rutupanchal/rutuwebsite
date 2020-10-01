@@ -1,4 +1,4 @@
-I"Ó
+I"Ô
 <!-- Courtesy of embedresponsively.com //-->
 <div class="responsive-video-container">
 
@@ -30,7 +30,7 @@
 All our publications and activities are documented <a href="/publications">here</a>.</p>
 
 <figure class="align-center" style="width:100%;">
-  <img src="http://localhost:4000/assets/img/about/about3.jpg" alt="about_banner" />
+  <img src="http://localhost:4000//assets/img/about/about3.jpg" alt="about_banner" />
     <figcaption>Unity Workshop by IMXD Team</figcaption>
 </figure>
 :ET
