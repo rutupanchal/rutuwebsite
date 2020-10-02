@@ -48,6 +48,11 @@
     }
 }
 
+.page__footer-text {
+    font-size: $type-size-6;
+    color: #eeeeee;
+}
+
 .page__footer-copyright {
     font-family: $global-font-family;
     font-size: $type-size-7;
@@ -66,7 +71,7 @@
     font-family: $global-font-family;
     font-size: $type-size-7;
     text-align: center;
-    color: #eeeeee;
+    color: #dddddd;
 }
 
 .page__footer-follow {
@@ -100,4 +105,17 @@
             white-space: nowrap;
         }
     }
+}
+
+
+/*
+Media Query
+========================================================================== */
+
+@media only screen and (max-width: 720px) {
+
+    .page__footer-text {
+        font-size: $type-size-5;
+    }
+
 }
