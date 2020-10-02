@@ -9,7 +9,7 @@ header:
     teaser: /assets/img/rutuimages/onboarding.png
 tags: EXPERIENCE-DESIGN VISUAL-DESIGN
 
-banner_image1:/assets/img/rutuimages/onboarding.png
+banner_image1: /assets/img/rutuimages/onboarding.png
 banner_image1_caption:
 
 team_members: ""
