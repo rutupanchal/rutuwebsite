@@ -3,17 +3,12 @@
    ========================================================================== */
 
 .projects {
-
     margin-top: 2em;
-    margin-bottom: 2em;
-
 }
 
 .whatido {
-
+    padding-top: 2em;
     margin-top: 2em;
-    margin-bottom: 2em;
-
 }
 
 .projects__item {
@@ -373,7 +368,7 @@
 
 .whatido_grid__item-selected-homepage {
 
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 
     float: left;
     width: span(12 of 12);
@@ -544,6 +539,8 @@
         margin-top: 1em;
         margin-bottom: 0em;
     }
+
+    
 
 }
 
