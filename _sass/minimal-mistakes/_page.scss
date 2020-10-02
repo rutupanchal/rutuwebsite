@@ -662,13 +662,23 @@ Homepage
 }
 
 .block_text {
+    float: left;
+    font-size: $type-size-6;
     text-align: left;  
     margin: 1em 0 1em 0;
-    padding: .6em 1em .5em 1.4em;
+    padding: 0em 1.5em 0em 1.5em;
     border-left: 0.25em solid $secondary-color;
-    background: #eeeeee;
-    border-radius: 0px 10px 10px 0px;
+    width: 50%;
 }
+
+.long_dash{
+  display: inline-block;
+  vertical-align: middle;
+    height: 0px;
+    width: 100px;
+    border-top: 5px solid $secondary-color;
+}
+
 
 /*
 MAP - contact
@@ -689,6 +699,15 @@ Media Query
     .header_home {
         margin-top: 140px;
     }
+
+    .block_text {
+        width: 100%;
+    }
+
+    .long_dash{
+    border-top: 3px solid $secondary-color;
+    }
+
 
     .vr_overlay{
       padding: 0px 0px 0px 5px;

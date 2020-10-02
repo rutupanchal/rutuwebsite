@@ -48,7 +48,7 @@
         {% if post.excerpt %}<p class="projects__item-excerpt" itemprop="description" style="margin-bottom: 0px;">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
         <p class="projects__item-excerpt-tags">
             {% for tag in post.tags %}
-            <a class="tag tagbox">{{ tag }} <span class="tag-separator">&nbsp•&nbsp</span></a>
+            <span class="tag tagbox">{{ tag }} <span class="tag-separator">&nbsp•&nbsp</span></span>
             {% endfor %}
         </p>
 

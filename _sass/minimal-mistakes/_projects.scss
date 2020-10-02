@@ -4,7 +4,14 @@
 
 .projects {
 
-    margin-top: 120px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.whatido {
+
+    margin-top: 2em;
     margin-bottom: 2em;
 
 }
@@ -99,7 +106,7 @@
 
 .projects__item-excerpt {
     margin-top: 0;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
 
     & + p {
         text-indent: 0;
@@ -197,7 +204,7 @@
     //background: #e5e5e5;
     font-size: $type-size-6;
     cursor: default;
-
+    font-weight: 400;
 }
 
 .tagbox:first-child {
@@ -289,7 +296,7 @@
     }
 
     .projects__item-excerpt {
-        font-size: $type-size-5;
+        font-size: $type-size-6;
     }
 
 
@@ -300,7 +307,6 @@
    ========================================================================== */
 
 .project_grid__item-selected-homepage {
-
 
     margin-bottom: 1em;
 
@@ -349,11 +355,11 @@
 
     .projects__item-excerpt {
         //display: none;
-        font-size: $type-size-5;
+        font-size: $type-size-6;
 
         @include breakpoint($medium) {
             display: block;
-            font-size: $type-size-5;
+            font-size: $type-size-6;
         }
     }
 
@@ -366,7 +372,6 @@
 
 
 .whatido_grid__item-selected-homepage {
-
 
     margin-bottom: 1em;
 
@@ -421,7 +426,7 @@
 
     .projects__item-excerpt {
         //display: none;
-        font-size: $type-size-5;
+        font-size: $type-size-6;
 
         @include breakpoint($medium) {
             display: block;
@@ -431,7 +436,6 @@
 
 
 }
-
 
 
 
@@ -518,17 +522,30 @@
 
     .projects__item-excerpt {
         //display: none;
-        font-size: $type-size-5;
+        font-size: $type-size-6;
 
         @include breakpoint($medium) {
             display: block;
-            font-size: $type-size-5;
+            font-size: $type-size-6;
         }
     }
 
 
 }
 
+
+/*
+   Media Query
+   ========================================================================== */
+
+@media only screen and (max-width: 720px) {
+
+#main {
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+
+}
 
 /*
    Features
