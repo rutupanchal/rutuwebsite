@@ -36,7 +36,6 @@
 
         &:hover {
             text-decoration: underline;
-            color: $secondary-color; 
         }
     }
 
@@ -56,22 +55,22 @@
 .page__footer-copyright {
     font-family: $global-font-family;
     font-size: $type-size-7;
-    text-align: center;
+    text-align: left;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .page__footer-credits {
     font-family: $global-font-family;
     font-size: $type-size-8;
-    text-align: center;
+    text-align: left;
     color: rgba(255, 255, 255, 0.3);
 }
 
 .page__footer-links {
     font-family: $global-font-family;
     font-size: $type-size-7;
-    text-align: center;
-    color: #dddddd;
+    text-align: left;
+    color: $secondary-color; 
 }
 
 .page__footer-follow {
@@ -116,6 +115,10 @@ Media Query
 
     .page__footer-text {
         font-size: $type-size-5;
+    }
+
+    .page__footer-links {
+    font-size: $type-size-6;
     }
 
 }
