@@ -165,7 +165,7 @@ var store = [{
         "url": "http://localhost:4000/updates/recently-accepted-publications/",
         "teaser":null},{
         "title": "Insurance Business App",
-        "excerpt":"Figure Caption Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only...","categories": [],
+        "excerpt":"Figure Caption Increasing the conversion rate of new users completing the self verification process on the platform, while reducing the dependency on assisted verification. Summary Outcome With changes in the sign up and onboarding user flows, we successfully increased self-verification rates from 4% to 20% Summary Competitive analysis User research,...","categories": [],
         "tags": ["EXPERIENCE-DESIGN","VISUAL-DESIGN"],
         "url": "http://localhost:4000/insurance-business-app",
         "teaser":"http://localhost:4000/assets/img/rutuimages/onboarding.png"},{

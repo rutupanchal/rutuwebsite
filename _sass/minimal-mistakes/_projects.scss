@@ -393,17 +393,15 @@
 
         &:nth-child(3n + 2) {
             clear: none;
-            margin-left: gutter(2 of 12);
+            margin-left: gutter(3 of 12);
         }
 
 
         &:nth-child(3n + 3) {
             clear: none;
-            margin-left: gutter(2 of 12);
+            margin-left: gutter(3 of 12);
             margin-right: 0;
         }
-
-
 
 
     }
@@ -414,18 +412,39 @@
         font-size: 0.6em;
     }
 
+    .whatido__item-teaserpic {
+        width: 100%;
+        //border: 1px solid blue;
+        padding-bottom: 0.5em;
+
+        @include breakpoint($medium) {
+            width: 90%;
+        }
+    }
+
+
     .projects__item-title {
         margin-top: 0.5em;
+        margin-right: 0;
         font-size: $type-size-4;
+        //border: 1px solid red;
+
+        @include breakpoint($medium) {
+            margin-right: 1.2em;
+        }
     }
 
     .projects__item-excerpt {
         //display: none;
         font-size: $type-size-5;
+        margin-right: 0;
+        //border: 1px solid yellow;
+        padding-bottom: 2em;
 
         @include breakpoint($medium) {
             display: block;
             font-size: $type-size-6;
+            margin-right: 2em;
         }
     }
 
