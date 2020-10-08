@@ -4,7 +4,7 @@ excerpt: Building a chat bot to improve the customer support experience.
 layout: projects
 selected: "true"
 homepage: "true"
-fullpage: "yes"
+fullpage: "no"
 header:
     teaser: /assets/img/rutuimages/comingsoon.png
 tags: RESEARCH EXPERIENCE-DESIGN VISUAL-DESIGN
