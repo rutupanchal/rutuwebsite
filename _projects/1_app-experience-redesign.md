@@ -74,7 +74,7 @@ gallery3:
 Increasing the conversion rate of new users completing the self verification process on the platform, while reducing the dependency on assisted verification.
 
 <figure class="align-center" style="width:100%;">
-  <img src="/assets/img/projects/onboarding/onboarding.png" alt="Image Text">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/onboarding.png" alt="Image Text">
 </figure> 
 
 
@@ -106,7 +106,7 @@ Mintpro is a B2B2C Insurance selling platform. The users range from novice users
 One of our biggest concern was the low self veriication rate on 4%. We had to dedicate an operations team to call the rest of the users to help them with the verification process. This was a huge blocker to scaling up the user base.
     </div>
     <div class="block_text">
-<img src="/assets/img/projects/onboarding/onboarding-background.png" alt="Image Text" style="width: 100%;">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/onboarding-background.png" alt="Image Text" style="width: 100%;">
     </div>
     <div style="height: 1em; clear:both;">
     </div>  
@@ -170,10 +170,10 @@ With these changes we were able to see an increase in self verification to 20% (
 The next steps would be to explore the auto verification or bank account and capturing the KYC details from uploaded images. 
     </div>
     <div class="block_text">
-<img src="/assets/img/projects/onboarding/onboarding-learnings.png" alt="Image Text" style="width: 100%;">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/onboarding-learnings.png" alt="Image Text" style="width: 100%;">
 <p>Check out the app at the play store here: </p>
 <a href="https://play.google.com/store/apps/details?id=in.mintpro" target="_blank">
-  <img src="/assets/img/projects/onboarding/google-play-badge1.png" alt="Image Text">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/google-play-badge1.png" alt="Image Text">
 </a>
     </div>
     <div style="height: 1em; clear:both;">
