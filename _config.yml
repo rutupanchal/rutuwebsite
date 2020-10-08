@@ -20,7 +20,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Rutu Panchal"
 description              : "User Experience Consultant"
-url                      : "https://rutupanchal.com"
+url                      : "https://rutupanchal.github.io/rutuwebsite/"
 baseurl                  : "/"
 repository               : "/rutupanchal/rutuwebsite"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
