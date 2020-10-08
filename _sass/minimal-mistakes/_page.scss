@@ -59,7 +59,7 @@ body {
 
     .page__inner-wrap {
         float: left;
-        margin-top: 1em;
+        margin-top: 2em;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
@@ -666,18 +666,33 @@ Homepage
     margin-bottom: 3em;
 }
 
-.block_text-container {
+.block_text-container_line {
     text-align: left;  
     margin: 1em 0 1em 0;
     border-left: 0.25em solid $secondary-color;
     width: 100%;
 }
 
-.block_text {
+.block_text_line {
     font-size: $type-size-6;
     float: left;
     padding: 0em 1.5em 0em 1.5em;
     width: 50%;
+}
+
+.block_text-container {
+    text-align: left;  
+    margin: 1em 0 1em 0;
+    width: 100%;
+    //border: 1px solid green;
+}
+
+.block_text {
+    font-size: $type-size-6;
+    float: left;
+    padding: 0em 1.5em 0em 0em;
+    width: 50%;
+    //border: 1px solid red;
 }
 
 .long_dash{
@@ -704,6 +719,13 @@ Media Query
 ========================================================================== */
 
 @media only screen and (max-width: 720px) {
+
+
+    .page{
+        .page__inner-wrap {
+            margin-top: 6em;
+        }
+    }
 
     .header_home {
         margin-top: 140px;

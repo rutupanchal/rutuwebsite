@@ -1,5 +1,5 @@
 ---
 layout: singlehome
-title: About
+title: UX Design Consultant
 author_profile: false
 ---
