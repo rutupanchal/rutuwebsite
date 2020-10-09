@@ -21,7 +21,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Rutu Panchal"
 description              : "User Experience Consultant"
 url                      : "https://rutupanchal.github.io/"
-baseurl                  : ""
+baseurl                  : "/"
 repository               : "/rutupanchal/rutuwebsite"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://rutupanchal.github.io/hello/assets/rutu-icon.png"
