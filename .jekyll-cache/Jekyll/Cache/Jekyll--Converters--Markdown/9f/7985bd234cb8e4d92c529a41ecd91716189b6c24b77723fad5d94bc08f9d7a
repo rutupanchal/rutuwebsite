@@ -1,4 +1,4 @@
-I"b
+I"_
 <figure>
   <div class="flex_row" style="display:flex">
   
@@ -45,7 +45,7 @@
 <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="//assets/img/publications/workshops/ftii2018/360_ftii_facourse.jpg"></a-sky>
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_facourse.jpg"></a-sky>
     </a-entity>
 </a-scene>
 </div>
@@ -98,7 +98,7 @@
 <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="//assets/img/publications/workshops/ftii2018/360_ftii_replaced.jpg"></a-sky>
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_replaced.jpg"></a-sky>
     </a-entity>
 </a-scene>
 </div>
@@ -111,7 +111,7 @@
 <a-scene loading-screen="dotsColor: white; backgroundColor: #008055;" class="" embedded="" vr-mode-ui="enabled: false" style="margin:0px; padding:0px;">
   <!-- 360-degree image. -->
   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 500000; easing: linear">
-        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="//assets/img/publications/workshops/ftii2018/360_ftii_vrida.jpg"></a-sky>
+        <a-sky class="ARcarousel" id="image-360" radius="100" rotation="0 -90 0" src="/assets/img/publications/workshops/ftii2018/360_ftii_vrida.jpg"></a-sky>
     </a-entity>
 </a-scene>
 </div>

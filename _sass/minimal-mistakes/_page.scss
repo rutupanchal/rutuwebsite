@@ -185,7 +185,8 @@ body {
             text-decoration: underline;
 
             img {
-                box-shadow: 0 0 10px rgba(#000, 0.25);
+                //box-shadow: 0 0 10px rgba(#000, 0.25);
+                outline: 4px solid $secondary-color;
             }
         }
     }
@@ -661,7 +662,7 @@ Homepage
     max-width: $large;   
 }
 
-.writeup_text {
+.body_text {
     font-size: $type-size-6;
     margin-bottom: 3em;
 }
@@ -731,8 +732,8 @@ Media Query
         margin-top: 140px;
     }
 
-    .writeup_text {
-        font-size: $type-size-5;
+    .body_text {
+        font-size: $type-size-5 !important;
     }
 
     .block_text {

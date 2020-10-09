@@ -232,8 +232,8 @@ figure {
 
     img {
         width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
+        -webkit-transition: $img-select-transition;
+        transition: $img-select-transition;
     }
 
     > a {
@@ -267,6 +267,21 @@ figure {
             width: 100%;
         }
     }
+
+    &.fourth {
+
+        > a,
+        > img {
+            @include breakpoint($small) {
+                width: calc(25% - 0.5em);
+            }
+        }
+
+        figcaption {
+            width: 100%;
+        }
+    }
+
 }
 
 /* Figure captions */
@@ -364,4 +379,20 @@ input[type="submit"],
 .archive__item-teaser {
     -webkit-transition: $global-transition;
     transition: $global-transition;
+}
+
+
+
+/*
+Media Query
+========================================================================== */
+
+@media only screen and (max-width: 720px) {
+
+p {
+    margin-bottom: 1.3em;
+    font-size: $type-size-5 !important;
+    font-weight: 400;
+}
+
 }

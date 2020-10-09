@@ -17,27 +17,23 @@ team_members_align: "text-left"
 
 permalink: /insurance-business-app
 
-flexgallery1:
-  - aspect: "0.974"
-    url:
+gallery0:
+  - url:
     image_path: /assets/img/projects/onboarding/onboarding-process1.png
     alt: "alt1"
     title: "alt1"
-  - aspect: "0.974"
-    url:
+  - url:
     image_path: /assets/img/projects/onboarding/onboarding-process2.png
     alt: "alt2"
     title: "alt2"
-  - aspect: "0.974"
-    url:
+  - url:
     image_path: /assets/img/projects/onboarding/onboarding-process3.png
     alt: "alt3"
     title: "alt3"
-  - aspect: "0.974"
-    url:
+  - url:
     image_path: /assets/img/projects/onboarding/onboarding-process4.png
     alt: "alt4"
-    title: "alt4"   
+    title: "alt4"  
 
 gallery1:
   - url: /assets/img/projects/onboarding/onboarding-signup1.png
@@ -72,6 +68,7 @@ gallery3:
 ---
 
 Increasing the conversion rate of new users completing the self verification process on the platform, while reducing the dependency on assisted verification.
+
 
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/onboarding.png" alt="Image Text">
@@ -114,7 +111,7 @@ One of our biggest concern was the low self veriication rate on 4%. We had to de
 
 
 
-###### The Compliance
+##### The Compliance
 
 For an advisor(user) to do business on our platform, being verified is mandatory. So, while they may explore the app as long as they wish, so be able to make any sale and earn, they need to verify themselves by submitting basic identification documents. 
 Our data showed that the longer it takes a user to verify themselves, the higher was the chance of losing them. So we had to make it simple and easy to get them verified as soon as possible. 
@@ -122,7 +119,7 @@ Our data showed that the longer it takes a user to verify themselves, the higher
 
 #### The Process
 
-{% include flexgallery id="flexgallery1" caption="" %}
+{% include gallery id="gallery0" layout="fourth" caption="" %}
 
 After speaking with our stakeholders and users, the most important gap identified with our product’s initial flow was that is was designed to cater to the needs of the experienced advisors, our primary users then. But with new marketing and business strategies, we were seeing more than 60% of our new users who were also new to insurance advisory and were completely lost in the old flow.
 
