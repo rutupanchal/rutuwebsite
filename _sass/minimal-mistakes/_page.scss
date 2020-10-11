@@ -186,7 +186,11 @@ body {
 
             img {
                 //box-shadow: 0 0 10px rgba(#000, 0.25);
-                outline: 4px solid $secondary-color;
+                border: 0;
+
+                @include breakpoint($medium) {
+                border: 5px solid $secondary-color;
+                }
             }
         }
     }

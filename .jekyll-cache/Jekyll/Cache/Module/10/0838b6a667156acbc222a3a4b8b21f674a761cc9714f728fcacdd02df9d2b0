@@ -1,4 +1,4 @@
-I"ú	
+I"þ	
 
 <div class="masthead">
     <div class="masthead__inner-wrap">
@@ -19,13 +19,13 @@
                 <ul class="visible-links">
                     
                     <li class="masthead__menu-item">
-                        <a href="/#work">Work</a>
+                        <a href="//#work">Work</a>
                     </li>
                     
                     
                     
                     <li class="masthead__menu-item">
-                        <a href="/#contact">Contact</a>
+                        <a href="//#contact">Contact</a>
                     </li>
                     
                     
@@ -34,13 +34,13 @@
                 <ul class="hidden-links hidden" id="dropdown-links">
                     
                     <li class="masthead__menu-item">
-                        <a href="/#work">Work</a>
+                        <a href="//#work">Work</a>
                     </li>
                     
                     
                     
                     <li class="masthead__menu-item">
-                        <a href="/#contact">Contact</a>
+                        <a href="//#contact">Contact</a>
                     </li>
                     
                     
