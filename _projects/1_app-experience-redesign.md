@@ -50,8 +50,8 @@ gallery2:
     image_path: /assets/img/projects/onboarding/onboarding-landing1.png
     alt: "Landing - Before"
     title: "Landing - Before"
-  - url: /assets/img/projects/onboarding/onboarding-landing2.png
-    image_path: /assets/img/projects/onboarding/onboarding-landing2.png
+  - url: /assets/img/projects/onboarding/onboarding-landing2.gif
+    image_path: /assets/img/projects/onboarding/onboarding-landing2.gif
     alt: "Landing - After"
     title: "Landing - After"
 
