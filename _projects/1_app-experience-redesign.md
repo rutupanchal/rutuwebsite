@@ -40,8 +40,8 @@ gallery1:
     image_path: /assets/img/projects/onboarding/onboarding-signup1.png
     alt: "Signup - Before"
     title: "Signup - Before"
-  - url: /assets/img/projects/onboarding/onboarding-signup2.png
-    image_path: /assets/img/projects/onboarding/onboarding-signup2.png
+  - url: /assets/img/projects/onboarding/onboarding-signup2.gif
+    image_path: /assets/img/projects/onboarding/onboarding-signup2.gif
     alt: "Signup - After"
     title: "Signup - After"
 
