@@ -69,7 +69,6 @@ gallery3:
 
 Increasing the conversion rate of new users completing the self verification process on the platform, while reducing the dependency on assisted verification.
 
-
 <figure class="align-center" style="width:100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/projects/onboarding/onboarding.png" alt="Image Text">
 </figure> 
@@ -178,5 +177,9 @@ The next steps would be to explore the auto verification or bank account and cap
 </div>   
 
 
-
+<!--
+<div class="home-button">
+  <button> <a href="{{ site.baseurl }}"> TESTING!! </a> </button>
+</div>
+-->
 

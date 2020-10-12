@@ -98,26 +98,31 @@ body {
 
 
 .home-button {
-    a {
+
+    a{
         font-weight: bold;
         color: $primary-color;
         font-size: $type-size-6;
-        padding: 0.5em 1em;
-        border-style: solid;
-        border-width: 2px;
-        border-color: $primary-color;
-        border-radius: 0.3em;
+        color: $background-color;
+        text-decoration: none !important;
     }
 
-    a:hover {
-        color: $background-color;
-        background: $primary-color;
-        text-decoration: none;
+    button {
+        background: $secondary-color;
+        box-shadow: 0px 0px #999;
+        border-style: none;
+        border-radius: 0.1em;
+        outline:none !important;
+        padding: 0.5em 1em 0.7em 1em;
+    }
 
+    button:hover {
+        box-shadow: 4px 4px #999;
+        -ms-transform: translate(-2px,-2px); /* IE 9 */
+        transform: translate(-2px,-2px); /* Standard syntax */
     }
 
 }
-
 
 
 .page__content {
