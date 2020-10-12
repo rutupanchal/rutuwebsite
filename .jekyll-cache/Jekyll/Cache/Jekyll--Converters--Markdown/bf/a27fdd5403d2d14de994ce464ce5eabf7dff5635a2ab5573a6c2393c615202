@@ -1,0 +1,183 @@
+I"9<p>Increasing the conversion rate of new users completing the self verification process on the platform, while reducing the dependency on assisted verification.</p>
+
+<figure class="align-center" style="width:100%;">
+  <img src="http://localhost:4000//assets/img/projects/onboarding/onboarding.png" alt="Image Text" />
+</figure>
+
+<div class="block_text-container">
+  <h2>Summary &nbsp; <div class="long_dash"></div></h2>
+    <div class="block_text">
+      <h3>Services</h3>
+      • Competitive analysis
+      <br /> • User research, 
+      <br /> • Wireframing, 
+      <br /> • User Interface design, 
+      <br /> • Developer Collaboration
+    </div>
+    <div class="block_text">
+      <h3>Outcome</h3>
+      With changes in the sign up and onboarding user flows, we successfully increased self-verification rates from 4% to 20% 
+    </div>
+    <div style="height: 1em; clear:both;">
+    </div>  
+</div>
+
+<p><br /><br /></p>
+
+<div class="block_text-container">
+  <h2>Understanding the problem &nbsp; <div class="long_dash"></div></h2>
+    <div class="block_text">
+      <h3>Background</h3>
+Mintpro is a B2B2C Insurance selling platform. The users range from novice users who want to start their insurance advisory business to highly experienced insurance advisors who want access to our larger product offerings (otherwise unavailable to them).
+One of our biggest concern was the low self veriication rate on 4%. We had to dedicate an operations team to call the rest of the users to help them with the verification process. This was a huge blocker to scaling up the user base.
+    </div>
+    <div class="block_text">
+<img src="http://localhost:4000//assets/img/projects/onboarding/onboarding-background.png" alt="Image Text" style="width: 100%;" />
+    </div>
+    <div style="height: 1em; clear:both;">
+    </div>  
+</div>
+
+<h5 id="the-compliance">The Compliance</h5>
+
+<p>For an advisor(user) to do business on our platform, being verified is mandatory. So, while they may explore the app as long as they wish, so be able to make any sale and earn, they need to verify themselves by submitting basic identification documents. 
+Our data showed that the longer it takes a user to verify themselves, the higher was the chance of losing them. So we had to make it simple and easy to get them verified as soon as possible. 
+<br /><br /></p>
+
+<h4 id="the-process">The Process</h4>
+
+<figure class="fourth ">
+  
+    
+      <img src="/assets/img/projects/onboarding/onboarding-process1.png" alt="alt1" />
+    
+  
+    
+      <img src="/assets/img/projects/onboarding/onboarding-process2.png" alt="alt2" />
+    
+  
+    
+      <img src="/assets/img/projects/onboarding/onboarding-process3.png" alt="alt3" />
+    
+  
+    
+      <img src="/assets/img/projects/onboarding/onboarding-process4.png" alt="alt4" />
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<p>After speaking with our stakeholders and users, the most important gap identified with our product’s initial flow was that is was designed to cater to the needs of the experienced advisors, our primary users then. But with new marketing and business strategies, we were seeing more than 60% of our new users who were also new to insurance advisory and were completely lost in the old flow.</p>
+
+<p>To make the onboarding simple and easy for all users, we interneved in three areas of the journey:
+<br />• the sign-up flow
+<br />• the landing page
+<br />• self verification process</p>
+
+<p><br /><br /></p>
+
+<h2>Insights &amp; Solutions &nbsp; <div class="long_dash"></div></h2>
+
+<h4 id="signing-up-setting-the-right-expectations">Signing-up: Setting the right expectations</h4>
+
+<p>• With 60% + new users new to the insurance industry, informing them a little more about the app and the platform benefits was important while keeping it easy for the experienced advisors. 
+<br />• The old design had a single screen which got the user to jump right in. The new design highlighted some of the platform USP here in 5 illustrations, giving a peek into what benefits lie ahead.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-signup1.png" title="Signup - Before">
+        <img src="/assets/img/projects/onboarding/onboarding-signup1.png" alt="Signup - Before" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-signup2.png" title="Signup - After">
+        <img src="/assets/img/projects/onboarding/onboarding-signup2.png" alt="Signup - After" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<h4 id="orientation-helping-new-users-to-get-started">Orientation: Helping new users to get started</h4>
+
+<p>• The old design: When the novice users first visited the app, the empty state screens did not offer much help with what should be done next. 
+<br />• The new design has a landing screen which guides the new user to explore the app features with simple 3 videos and a set of simple steps they need to complete to start earning. This screen evolves as the user progresses through each step. This also helps novice users to get started with the app without needing a telephonic orientation.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-landing1.png" title="Landing - Before">
+        <img src="/assets/img/projects/onboarding/onboarding-landing1.png" alt="Landing - Before" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-landing2.png" title="Landing - After">
+        <img src="/assets/img/projects/onboarding/onboarding-landing2.png" alt="Landing - After" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<h4 id="self-verification-transparent-simple-and-easy">Self-verification: Transparent, Simple and easy</h4>
+
+<p>• Our top most priority was to get as many users as possible to self-verify and start earning from our platform. 
+<br />• The old design did not offer nudges in the right places. The design also did not offer clarity on the verification process itself and the need for verification.
+<br />• The new design offered a lot of clarity in the process of verification and gave users a simple todo list to complete. The UX copy also focused on ensuring the users were well informed on what they had to do and what will happen next.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-verify1.png" title="Verify - Before">
+        <img src="/assets/img/projects/onboarding/onboarding-verify1.png" alt="Verify - Before" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/projects/onboarding/onboarding-verify2.png" title="Verify - After">
+        <img src="/assets/img/projects/onboarding/onboarding-verify2.png" alt="Verify - After" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<p><br /></p>
+
+<div class="block_text-container">
+<h2>Learnings &amp; Takeaways &nbsp; <div class="long_dash"></div></h2>
+    <div class="block_text">
+• Keeping users well informed builds trust and confidence in the platform. 
+<br />• Clear CTAs make it easier for users to complete actions.
+<br />• UX Copy plays a huge role in giving transparency and building trust. 
+<br /><br />
+With these changes we were able to see an increase in self verification to 20% (and still growing at the time of writing this report)
+The next steps would be to explore the auto verification or bank account and capturing the KYC details from uploaded images. 
+    </div>
+    <div class="block_text">
+<img src="http://localhost:4000//assets/img/projects/onboarding/onboarding-learnings.png" alt="Image Text" style="width: 100%;" />
+<p>Check out the app at the play store here: </p>
+<a href="https://play.google.com/store/apps/details?id=in.mintpro" target="_blank">
+  <img src="http://localhost:4000//assets/img/projects/onboarding/google-play-badge1.png" alt="Image Text" />
+</a>
+    </div>
+    <div style="height: 1em; clear:both;">
+    </div>  
+</div>
+
+:ET
