@@ -1,6 +1,6 @@
 ---
 title:  "Research"
-excerpt: Gathering qualitative data, discovering user needs, understanding user behaviour and identifying delight and frustration trigers.
+excerpt: Gather qualitative data, discover user needs, understand user behaviour and identify delight and frustration trigers.
 layout: whatido
 selected: "true"
 homepage: "true"
