@@ -1,6 +1,6 @@
 ---
 title:  "Experience Design"
-excerpt: Generate ideas and translate research insights and business needs into meaningful workflows. Testing ideas with users to get feedback.
+excerpt: Generate ideas and translate research insights and business needs into meaningful workflows. Test ideas with users to get feedback.
 layout: whatido
 selected: "true"
 homepage: "true"
